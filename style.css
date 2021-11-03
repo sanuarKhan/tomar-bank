@@ -138,6 +138,7 @@ svg{
 }
 #transectional-area {
     display: none;
+    overflow: hidden;
 } 
 .balance{
     background: #f39c12;
