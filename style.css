@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background: #f09;
     background-repeat: no-repeat;
@@ -132,6 +136,20 @@ svg{
     bottom: -30px;
     position: fixed;
 }
-/* .form-area *{
-    margin-bottom: 20px;
-} */
+#transectional-area {
+    display: none;
+} 
+.balance{
+    background: #f39c12;
+}
+.withdraw{
+    background: #e74c3c;
+}
+.diposit{
+    background: #3498db;
+}
+.status{
+    margin: 35px 50px;
+    padding: 25px;
+    border-radius: 30px;
+}
